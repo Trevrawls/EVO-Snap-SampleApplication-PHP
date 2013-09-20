@@ -3,7 +3,7 @@
 class Settings
 {
 	const Timezone = 'America/Denver'; // To get a list of supported timezones see http://php.net/manual/en/timezones.php
-	const MsgFormat = 'JSON'; // 'SOAP', 'HTTP', 'JSON', 'XML' - Selects the message type SOAP, HTTP, REST_JSON, or REST_XML - REST_XML has not been implemented yet.
+	const MsgFormat = 'SOAP'; // 'SOAP', 'HTTP', 'JSON', 'XML' - Selects the message type SOAP, HTTP, REST_JSON, or REST_XML - REST_XML has not been implemented yet.
 	/*
 	 * Identity Token : Identity tokens are signed authentication tokens provided to merchants or other transaction originators to prevent the unauthorized use
 	 * of an application. Identity tokens are set to expire after 3 years, and therefore will require renewal. Identity tokens should be managed and protected in a
